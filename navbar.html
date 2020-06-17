@@ -1,0 +1,31 @@
+<nav>
+     <ul>
+		  <li> Brand </li>
+		  <li> Contact </li>
+		  <li> About   </li>
+     
+       </ul>
+
+</nav>
+
+
+
+
+## also add followin codes to include navbar in your base template
+
+<!-- <h1> Hellow World</h1>
+{{request.user}}
+<p> This is a template </p>-->
+<!doctype html>
+<html>
+<head>
+	<title> coding for Enterprenures id doing try Django</title> 
+	<h1> This a nav bar </h1>
+</head>
+<body>
+	{% include  "navbar.html" %}
+     {% block content %}
+       replace me
+     {% endblock %}
+    </body>
+</html>
